@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SIMULASI TKA SDMP</title>
+  <link rel="icon" href="https://media.discordapp.net/attachments/1351361843037208646/1551829607655940126/LOGO_SDMP.png?ex=6af6a1f2&is=6af55072&hm=5c9a735cdbad812a41178210969aa616a84bbc78d5b64111733a7359cdbd068b&=&format=webp&quality=lossless" />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #eee;
+      overflow: hidden; /* Mencegah scroll ganda */
+    }
+
+    .iframe-container {
+      width: 100%;
+      height: 100dvh; /* Menggunakan dvh agar pas di mobile browser */
+      overflow: hidden;
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="iframe-container">
+    <iframe
+      id="app"
+      src="https://script.google.com/macros/s/AKfycbwnlWlnQ16I0-54DCtVXfzD_TtyAkMyeRELLS6GZH-7ITeJ8Rs3-x87jt70FTj_Y1bnKg/exec"
+      scrolling="yes"
+      allowfullscreen="true"
+      webkitallowfullscreen="true"
+      mozallowfullscreen="true"
+      allow="fullscreen; camera; microphone; display-capture; geolocation;">
+    </iframe>
+  </div>
+</body>
+</html>
